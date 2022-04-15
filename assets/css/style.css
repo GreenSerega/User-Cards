@@ -1,40 +1,6 @@
-*{
-  box-sizing: border-box;
-}
-.cards-container {
-}
-.card-wrapper {
-  --img-size: 150px:
-  min-wicalc(var(--img-size)*4)
-  border: 1px solid darkblue;
-  text-align: center;
-}
-.bg-header {
-}
-.card-content {
-}
-.photo-wrapper {
-}
-.photo-profile {
-  --img-size: 150px:
-  width:var(--img-size)
-  height:var(--img-size)
-  padding: 5px;
-  border: 1px silid #cccccc;
-  border-radius: 50%;
-  object-fit: cover;
-}
-.full-name-profile {
-}
-.capitalize {
-}
-.address-profile {
-}
-.icon-map {
-}
-.uppercase {
-}
-.btn-container {
-}
-.description-profile {
+ul{
+  padding:0;
+  list-style-type:square;
+  list-style-position: inside;
+  list-style-image: url(./../icons/people.png);
 }
