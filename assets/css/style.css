@@ -25,6 +25,11 @@
 .card-content {
   padding: 0 20px;
 }
+.name-profile{
+  min-width: 50px; 
+  width: 100%;
+  max-width: 400px;
+}
 .photo-profile {
   width: var(--img-size);
   height:var(--img-size);
@@ -37,14 +42,23 @@
   background-color: #ffffff;
 }
 .address-profile {
+  min-width: 200px;
+  width: 100%;
+  max-width: 250px;
   margin: 10px;
   font-size: 0.9em;
+}
+.name-city{
+  min-width: 10px;
+  width: 100%;
+  max-width: 20px;
 }
 .icon-map {
   width: 1em;
   
 }
 .btn-container {
+  min-width: 250px;
   margin-top: 20px;
   margin-bottom: 15px;
   border-top: 1px solid #cccccc; 
@@ -62,11 +76,20 @@
   
 }
 .btn-follow{
+  min-width: 70px; 
+  width: 100%;
+  max-width: 80px;
   background-color: #2EA34A;
 }
+.btn-message{
+  min-width: 100px; 
+  width: 100%;
+  max-width: 140px;
+}
 .capitalize {
-  overflow: hidden;
+  box-sizing: border-box;
   white-space: nowrap;
+  overflow: hidden;
   text-overflow: ellipsis;
   text-transform: capitalize;
 
